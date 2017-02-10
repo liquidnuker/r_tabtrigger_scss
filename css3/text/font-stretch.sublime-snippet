@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+font-stretch: ${1:normal condensed ultra-condensed extra-condensed};
+${2:font-stretch: semi-condensed expanded semi-expanded extra-expanded ultra-expanded;}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>sa-css3-text-font-stretch</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>css3-text-font-stretch</description>
+  <scope>source.scss</scope>
+</snippet>

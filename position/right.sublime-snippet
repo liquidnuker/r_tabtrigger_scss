@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+right: ${1:auto,length,%,inherit};
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>right</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>css pos- right margin edge for a positioned box</description>
+  <scope>source.scss</scope>
+</snippet>

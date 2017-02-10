@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+list-style-type: ${1:none};
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>list-style-type</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>css list style type</description>
+  <scope>source.scss</scope>
+</snippet>

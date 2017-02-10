@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+${1:abbr}[${2:title}]
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>sa-sel-attr</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>css sel attr[]</description>
+  <scope>source.scss</scope>
+</snippet>

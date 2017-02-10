@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+background-image: url(${1:../img1})${2:, url(../img2)};
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>sa-css-background-background-image</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>css-background-background-image</description>
+  <scope>source.scss</scope>
+</snippet>

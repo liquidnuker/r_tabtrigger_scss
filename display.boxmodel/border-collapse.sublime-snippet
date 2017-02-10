@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+border-collapse: ${1:collapse, separate};
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>border-collapse</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>css disp.box border-collapse</description>
+  <scope>source.scss</scope>
+</snippet>

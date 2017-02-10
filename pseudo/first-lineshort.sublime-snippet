@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+::first-line
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>first-line</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>css psE el::first-line</description>
+  <scope>source.scss</scope>
+</snippet>

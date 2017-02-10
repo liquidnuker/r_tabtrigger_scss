@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+:last-of-type
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>last-of-type</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>css psC el:last-of-type</description>
+  <scope>source.scss</scope>
+</snippet>

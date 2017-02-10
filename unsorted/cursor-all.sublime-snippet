@@ -1,0 +1,29 @@
+<snippet>
+  <content><![CDATA[
+cursor: default;
+cursor: auto;
+cursor: pointer;
+cursor: crosshair;
+
+cursor: help;
+cursor: move;
+cursor: text;
+cursor: wait;
+cursor: progress;
+
+cursor: n-resize;
+cursor: e-resize;
+cursor: s-resize;
+cursor: w-resize;
+
+cursor: ne-resize;
+cursor: nw-resize;
+cursor: se-resize;
+cursor: sw-resize;
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>cursor-all</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>css cursor all</description>
+  <scope>source.scss</scope>
+</snippet>

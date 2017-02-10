@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+-webkit-box-shadow: inset ${1:horOffset5}px ${2:vertOffset5}px ${3:blur3}px ${4:spread1}px ${5:#000};
+-moz-box-shadow: inset ${1:horOffset5}px ${2:vertOffset5}px ${3:blur3}px ${4:spread1}px ${5:#000};
+box-shadow: inset ${1:horOffset5}px ${2:vertOffset5}px ${3:blur3}px ${4:spread1}px ${5:#000};
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>box-shadow-inner</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>css3-disp.box-box-shadow-inner</description>
+  <scope>source.scss</scope>
+</snippet>

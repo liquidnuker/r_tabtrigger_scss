@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+outline-width: ${1:1px} ${2:medium thick inherit};
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>outline-width</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>sa disp.box outline-width</description>
+  <scope>source.scss</scope>
+</snippet>

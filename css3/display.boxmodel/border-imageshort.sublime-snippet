@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+-webkit-border-image: url(${1:../img1}) ${2:30} ${3:round/stretch}; /* Safari 3.1-5 */
+-o-border-image: url(${1:../img1}) ${2:30} ${3:round/stretch}; /* Opera 11-12.1 */
+border-image: url(${1:../img1}) ${2:30} ${3:round/stretch};
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>border-image</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>css3-disp.box-border-image</description>
+  <scope>source.scss</scope>
+</snippet>

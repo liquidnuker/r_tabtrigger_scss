@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+overflow-y: ${1:auto, scroll, hidden, visible, inherit};
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>overflow-y</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>css pos overflow-y</description>
+  <scope>source.scss</scope>
+</snippet>

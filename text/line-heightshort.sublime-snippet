@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+line-height: ${1:100%}; ${2:/* most browsers is about 110% to 120% */}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>line-height</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>css text line-height</description>
+  <scope>source.scss</scope>
+</snippet>

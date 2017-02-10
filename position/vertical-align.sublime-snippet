@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+vertical-align: ${1:text-top,text-bottom,middle,baseline};
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>vertical-align</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>css pos vertical-align</description>
+  <scope>source.scss</scope>
+</snippet>

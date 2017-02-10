@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+font-variant: ${1:normal, small-caps};
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>sa-text-font-variant</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>css text font-variant</description>
+  <scope>source.scss</scope>
+</snippet>

@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+${2:/* 1:default, 0.5:50%, 2:2X */
+/* IE9+ Chrome Safari Firefox Opera */}
+-webkit-transform: scale(${1:2});
+-moz-transform: scale(${1:2});
+-o-transform: scale(${1:2});
+-ms-transform: scale(${1:2});
+transform: scale(${1:2});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>transform-scale</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>IE9 css3 transform: scale</description>
+  <scope>source.scss</scope>
+</snippet>

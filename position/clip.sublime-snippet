@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+clip: ${1:shape, auto, inherit};
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>clip</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>css pos- clips an absolutely positioned element</description>
+  <scope>source.scss</scope>
+</snippet>
