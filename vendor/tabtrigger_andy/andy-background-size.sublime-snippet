@@ -2,29 +2,22 @@
   <content><![CDATA[
 // Mixin helper to output vendor-prefixed CSS
 // @author HugoGiraudel
-// @param {String} ${1:}property - Unprefixed CSS property
-// @param {*} ${1:}value - Raw CSS value
-// @param {List} ${1:}prefixes [()] - List of prefixes to output
-@mixin prefix(${1:}property, ${1:}value, ${1:}prefixes: ()) {
-  @each ${1:}prefix in ${1:}prefixes {
-    -#{${1:}prefix}-#{${1:}property}: ${1:}value;
+// @param {String} \$property - Unprefixed CSS property
+// @param {*} \$value - Raw CSS value
+// @param {List} \$prefixes [()] - List of prefixes to output
+@mixin prefix(\$property, \$value, \$prefixes: ()) {
+  @each \$prefix in \$prefixes {
+    -#{\$prefix}-#{\$property}: \$value;
   }
 
-  #{${1:}property}: ${1:}value;
+  #{\$property}: \$value;
 }
 
-// Background size helper
-// Usage
-//   .foo {
-//     @include background-size(100%);
-//   }
-@mixin background-size(${1:}width, ${1:}height: ${1:}width) {
-  @include prefix(background-size, ${1:}width ${1:}height, 'webkit' 'moz');
+@mixin background-size(\$width, \$height: \$width) {
+  @include prefix(background-size, \$width \$height, 'webkit' 'moz');
 }
 
-.foo {
-  @include background-size(100%);
-}
+@include background-size(${1:100%});
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>andy-background-size</tabTrigger>
