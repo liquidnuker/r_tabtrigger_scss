@@ -1,0 +1,35 @@
+<snippet>
+  <content><![CDATA[
+// Mixin helper to output vendor-prefixed CSS
+// @access private
+// @author HugoGiraudel
+// @param {String} ${1:}property - Unprefixed CSS property
+// @param {*} ${1:}value - Raw CSS value
+// @param {List} ${1:}prefixes [()] - List of prefixes to output
+@mixin prefix(${1:}property, ${1:}value, ${1:}prefixes: ()) {
+  @each ${1:}prefix in ${1:}prefixes {
+    -#{${1:}prefix}-#{${1:}property}: ${1:}value;
+  }
+
+  #{${1:}property}: ${1:}value;
+}
+
+// Horizontally and vertically centers block elements
+// Important: you must have a parent element with `position: relative`.
+@mixin center-both {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    @include prefix(transform, translate(-50%, -50%), 'webkit' 'ms');
+}
+
+.foo {
+  @include center-both;
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>andy-center-both</tabTrigger>
+  <description>horiz vert center</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.scss</scope>
+</snippet>

@@ -1,0 +1,35 @@
+<snippet>
+  <content><![CDATA[
+// Mixin helper to output vendor-prefixed CSS
+// @author HugoGiraudel
+// @param {String} ${1:}property - Unprefixed CSS property
+// @param {*} ${1:}value - Raw CSS value
+// @param {List} ${1:}prefixes [()] - List of prefixes to output
+@mixin prefix(${1:}property, ${1:}value, ${1:}prefixes: ()) {
+  @each ${1:}prefix in ${1:}prefixes {
+    -#{${1:}prefix}-#{${1:}property}: ${1:}value;
+  }
+
+  #{${1:}property}: ${1:}value;
+}
+
+// Box-sizing helper
+// Usage
+//   .foo {
+//     @include box-sizing(border-box);
+//   }
+@mixin box-sizing(${1:}type) {
+    @include prefix(box-sizing, ${1:}type, 'moz');
+}
+
+
+.foo {
+  @include box-sizing(border-box);
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>andy-box-sizing</tabTrigger>
+  <description>box-sizing helper</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.scss</scope>
+</snippet>

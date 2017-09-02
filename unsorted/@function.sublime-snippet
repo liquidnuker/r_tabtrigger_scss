@@ -1,0 +1,33 @@
+<snippet>
+  <content><![CDATA[
+@function adjust_width(var) {
+  @return var1 + var2;
+}
+//////
+@function addVar(var1, var2){
+  @return (var1 + var2);
+}
+//////
+@function rem-convert(var) {
+    @return (var/16)+rem;
+}
+//////
+border-variables: (
+  one: 1px solid #000,
+  two: 2px dotted #666,
+);
+
+@function variation(var) {
+  @return map-get(border-variables, var);
+}
+
+.test {
+  border: variation(one);
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>sa-function</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>sass- @function</description>
+  <scope>source.scss</scope>
+</snippet>

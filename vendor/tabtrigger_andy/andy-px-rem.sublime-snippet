@@ -1,0 +1,26 @@
+<snippet>
+  <content><![CDATA[
+// Given a font size in pixels, reproduces that font size in rems.
+// Usage
+//   .foo {
+//     @include font-size(16px);
+//   }
+@mixin font-size(${1:}size) {
+  @if unitless(${1:}size) {
+    ${1:}size: ${1:}size * 1px;
+  }
+
+  font-size: ${1:}size;
+  font-size: (${1:}size / ${1:}base-font-size) * 1rem;
+}
+
+.foo {
+  @include font-size(16px);
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>andy-px-rem</tabTrigger>
+  <description>px to rem</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.scss</scope>
+</snippet>

@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+// Sizing helper
+@mixin size(${1:}width, ${1:}height: ${1:}width) {
+    width: ${1:}width;
+    height: ${1:}height;
+}
+
+.foo {
+  @include size(350px);
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>andy-size</tabTrigger>
+  <description>sizing helper</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.scss</scope>
+</snippet>

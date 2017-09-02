@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+@each ${1:}color, ${1:}border in (aqua, dotted),
+                        (red, solid),
+                        (green, double){
+  .#{${1:}color} {
+    background-color : ${1:}color;
+    border: ${1:}border;
+  }
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>sa-each-multi</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>sass- @each multi</description>
+  <scope>source.scss</scope>
+</snippet>

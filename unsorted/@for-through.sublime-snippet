@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+@for var from 1 through 4 {
+  .p#{var} { 
+    padding-left : var * 10px; 
+  }
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>sa-for-through</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>sass- for-through</description>
+  <scope>source.scss</scope>
+</snippet>

@@ -1,0 +1,36 @@
+<snippet>
+  <content><![CDATA[
+@if (var > 10 and var < 25) {
+  color: green;
+  }
+////////
+h2 {
+  color: if( 1 + 1 == 2 , green , red);
+}
+////////
+.x {
+  @if var == item1 {
+    color: red;
+  } @else if var == item2 {
+    color: blue;
+  } @else if var == item3 {
+    color: green;
+  } @else {
+    color: black;
+  }
+}
+////////
+@function setColor(var) {
+  @if (lightness(var) > 50) {
+    @return #000000;
+  } @else {
+    @return #ffffff;
+  }
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>sa-if</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>sass- @if</description>
+  <scope>source.scss</scope>
+</snippet>

@@ -1,0 +1,45 @@
+<snippet>
+  <content><![CDATA[
+// Mixin helper to output vendor-prefixed CSS
+// @author HugoGiraudel
+// @param {String} ${1:}property - Unprefixed CSS property
+// @param {*} ${1:}value - Raw CSS value
+// @param {List} ${1:}prefixes [()] - List of prefixes to output
+@mixin prefix(${1:}property, ${1:}value, ${1:}prefixes: ()) {
+  @each ${1:}prefix in ${1:}prefixes {
+    -#{${1:}prefix}-#{${1:}property}: ${1:}value;
+  }
+
+  #{${1:}property}: ${1:}value;
+}
+
+// Vertically centers block elements with known height.
+@mixin center-h(${1:}height) {
+    position: absolute;
+    top: 50%;
+    height: ${1:}height;
+    margin-top: -(${1:}height / 2);
+}
+
+.foo {
+  @include center-h(42px);
+}
+........
+
+// Vertically centers block elements with unknown height.
+@mixin center-h--unk {
+    position: relative;
+    top: 50%;
+    @include prefix(transform, translateY(-50%), 'webkit' 'ms');
+}
+
+.foo {
+  @include center-h--unk;
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>andy-center-vert</tabTrigger>
+  <description>vert center</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.scss</scope>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+@while var > 0 {
+  .paddding-#{var} { 
+    padding-left: 1px * var; 
+  }
+  var: var - 10;
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>sa-while</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>sass- @while</description>
+  <scope>source.scss</scope>
+</snippet>

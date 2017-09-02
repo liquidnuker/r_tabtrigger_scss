@@ -1,0 +1,29 @@
+<snippet>
+  <content><![CDATA[
+// Given the location of a webfont, will generate a font-face declaration with multiple file formats.
+// @param {String} ${1:}font-name - Font family name
+// @param {String} ${1:}file-name - File name (no extension)
+// @param {String | Number} ${1:}weight [normal] - Font weight
+// @param {String} ${1:}style [normal] - Font style
+// Usage
+//   @include font-face('gotham', '/fonts/gotham');
+@mixin font-face(${1:}font-name, ${1:}file-name, ${1:}weight: normal, ${1:}style: normal) {
+  @font-face {
+    font-family: quote(${1:}font-name);
+    src: url(${1:}file-name + '.eot');
+    src: url(${1:}file-name + '.eot?#iefix')  format('embedded-opentype'),
+         url(${1:}file-name + '.woff') format('woff'),
+         url(${1:}file-name + '.ttf')  format('truetype'),
+         url(${1:}file-name + '.svg##{${1:}font-name}')  format('svg');
+    font-weight: ${1:}weight;
+    font-style: ${1:}style;
+  }
+}
+
+@include font-face('gotham', '/fonts/gotham');
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>andy-font-face</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.scss</scope>
+</snippet>

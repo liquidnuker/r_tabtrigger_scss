@@ -1,0 +1,25 @@
+<snippet>
+  <content><![CDATA[
+// Shorthandizes position declarations.
+// Usage
+//   .foo {
+//     @include position(absolute, ${1:}top: 10px, ${1:}left: 10px);
+//   }
+@mixin position(${1:}type, ${1:}top: null, ${1:}right: null, ${1:}bottom: null, ${1:}left: null) {
+    position: ${1:}type;
+    top: ${1:}top;
+    right: ${1:}right;
+    bottom: ${1:}bottom;
+    left: ${1:}left;
+}
+
+.foo {
+  @include position(absolute, ${1:}top: 10px, ${1:}left: 10px);
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>andy-position</tabTrigger>
+  <description>trbl positions</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.scss</scope>
+</snippet>

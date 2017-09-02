@@ -1,0 +1,25 @@
+<snippet>
+  <content><![CDATA[
+@mixin xxx {
+  color: #666;
+}
+////
+@mixin border-radius(var) {
+  -webkit-border-radius: var;
+     -moz-border-radius: var;
+      -ms-border-radius: var;
+          border-radius: var;
+}
+////
+@mixin bordered(var1, var2, var3) {
+  color: var1;
+  border: var2;
+  width: var3;
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>sa-mixin</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>sass- @mixin</description>
+  <scope>source.scss</scope>
+</snippet>

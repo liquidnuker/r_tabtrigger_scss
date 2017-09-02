@@ -1,0 +1,35 @@
+<snippet>
+  <content><![CDATA[
+// Mixin helper to output vendor-prefixed CSS
+// @author HugoGiraudel
+// @param {String} ${1:}property - Unprefixed CSS property
+// @param {*} ${1:}value - Raw CSS value
+// @param {List} ${1:}prefixes [()] - List of prefixes to output
+@mixin prefix(${1:}property, ${1:}value, ${1:}prefixes: ()) {
+  @each ${1:}prefix in ${1:}prefixes {
+    -#{${1:}prefix}-#{${1:}property}: ${1:}value;
+  }
+
+  #{${1:}property}: ${1:}value;
+}
+
+// Automatically prefix any transform
+// @param {String} ${1:}transformation - The transform to apply
+// @example scss - Usage
+//   .foo {
+//     @include transform(translateX(10px));
+//   }
+@mixin transform(${1:}transformation){
+  @include prefix(transform, ${1:}transformation, 'webkit' 'ms');
+}
+
+.foo {
+  @include transform(translateX(10px));
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>andy-transform</tabTrigger>
+  <description>prefix any transform</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.scss</scope>
+</snippet>
