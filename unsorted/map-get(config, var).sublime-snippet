@@ -1,12 +1,12 @@
 <snippet>
   <content><![CDATA[
-${1:}mapConfig: (
-  ${1:}key: 1px solid #000,
+\${1:}mapConfig: (
+  \${1:}key: 1px solid #000,
   two: 2px dotted #666,
 );
 
-@include print(${1:}mapConfig);
-map-get(${1:}mapConfig, ${1:}key);
+@include print(\${1:}mapConfig);
+map-get(\${1:}mapConfig, \${1:}key);
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>sa-map-get</tabTrigger>

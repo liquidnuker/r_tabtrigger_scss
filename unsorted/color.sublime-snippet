@@ -6,5 +6,5 @@ color: ${1:#000};
   <tabTrigger>color</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <description>css color</description>
-  <scope>source.scss</scope>
+  <scope>source.css, source.scss</scope>
 </snippet>

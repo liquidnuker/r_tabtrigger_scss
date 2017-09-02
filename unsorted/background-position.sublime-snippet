@@ -3,8 +3,8 @@
 background-position: ${1:top right}${2:, bottom left};
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>sa-css-background-position</tabTrigger>
+  <tabTrigger>css-background-position</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <description>css-background-position</description>
-  <scope>source.scss</scope>
+  <scope>source.css, source.scss</scope>
 </snippet>

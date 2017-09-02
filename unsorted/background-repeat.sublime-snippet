@@ -3,8 +3,8 @@
 background-repeat: ${1:no-repeat repeat-x};
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>sa-css-background-background-repeat</tabTrigger>
+  <tabTrigger>css-background-background-repeat</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <description>css background background-repeat</description>
-  <scope>source.scss</scope>
+  <scope>source.css, source.scss</scope>
 </snippet>
