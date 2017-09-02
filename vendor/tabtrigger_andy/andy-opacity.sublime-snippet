@@ -1,23 +1,17 @@
 <snippet>
   <content><![CDATA[
 // Given an opacity value, generates that value as well as a way to display that opacity value in Internet Explorer 8 and 9.
-// @param {Float} ${1:}opacity - Opacity
-// Usage
-//   .foo {
-//     @include opacity(0.5);
-//   }
-@mixin opacity(${1:}opacity) {
-    opacity: ${1:}opacity;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=#{${1:}opacity * 100})";
+// @param {Float} opacity - Opacity
+@mixin opacity(opacity) {
+    opacity: opacity;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=#{opacity * 100})";
 }
 
-//
-.foo {
-  @include opacity(0.5);
-}
+@include opacity(0.5);
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>andy-opacity</tabTrigger>
+  <description>opacity: -ms-filter:"progid...</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>source.scss</scope>
 </snippet>
