@@ -1,28 +1,22 @@
 <snippet>
   <content><![CDATA[
-// Background gradient helper
-// Usage
-//   .foo {
-//     @include background-gradient(red, black, 'vertical');
-//   }
-@mixin background-gradient(${1:}start-color, ${1:}end-color, ${1:}orientation) {
-    background: ${1:}start-color;
+@mixin background-gradient(\$start-color, \$end-color, \$orientation) {
+    background: \$start-color;
 
-    @if ${1:}orientation == 'vertical' {
-      background: -webkit-linear-gradient(top, ${1:}start-color, ${1:}end-color);
-      background: linear-gradient(to bottom, ${1:}start-color, ${1:}end-color);
-    } @else if ${1:}orientation == 'horizontal' {
-      background: -webkit-linear-gradient(left, ${1:}start-color, ${1:}end-color);
-      background: linear-gradient(to right, ${1:}start-color, ${1:}end-color);
+    @if \$orientation == 'vertical' {
+      background: -webkit-linear-gradient(top, \$start-color, \$end-color);
+      background: linear-gradient(to bottom, \$start-color, \$end-color);
+    } @else if \$orientation == 'horizontal' {
+      background: -webkit-linear-gradient(left, \$start-color, \$end-color);
+      background: linear-gradient(to right, \$start-color, \$end-color);
     } @else {
-      background: -webkit-radial-gradient(center, ellipse cover, ${1:}start-color, ${1:}end-color);
-      background: radial-gradient(ellipse at center, ${1:}start-color, ${1:}end-color);
+      background: -webkit-radial-gradient(center, ellipse cover, \$start-color, \$end-color);
+      background: radial-gradient(ellipse at center, \$start-color, \$end-color);
     }
 }
 
-.foo {
- @include background-gradient(red, black, 'vertical');
-}
+@include background-gradient(${1:red}, ${2:black}, '${3:vertical}${4:horizontal}');
+
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>andy-background-gradient</tabTrigger>
