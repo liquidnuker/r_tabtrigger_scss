@@ -1,14 +1,12 @@
 <snippet>
   <content><![CDATA[
 // Sizing helper
-@mixin size(${1:}width, ${1:}height: ${1:}width) {
-    width: ${1:}width;
-    height: ${1:}height;
+@mixin size($width, $height: $width) {
+    width: $width;
+    height: $height;
 }
 
-.foo {
-  @include size(350px);
-}
+@include size(${1:35px});
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>andy-size</tabTrigger>

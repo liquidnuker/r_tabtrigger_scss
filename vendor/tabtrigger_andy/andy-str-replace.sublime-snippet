@@ -1,9 +1,9 @@
 <snippet>
   <content><![CDATA[
 // Function helper to strip a single character from a string; by default, simply removes the character.
-// @param {String} ${1:}string - The string to alter.
-// @param {String} ${1:}to-replace - The character to check for.
-// @param {String} ${1:}replacement [''] - The character to replace the removed character with.
+// @param {String} \$string - The string to alter.
+// @param {String} \$to-replace - The character to check for.
+// @param {String} \$replacement [''] - The character to replace the removed character with.
 // Usage {
 //   .foo:after {
 //     content: str-replace('Hello.', '.', '!');
@@ -12,16 +12,16 @@
 //   .foo:after {
 //     content: 'Hello!'
 //   }
-@function str-replace(${1:}string, ${1:}to-replace, ${1:}replacement:'') {
-  ${1:}target-location: str-index(${1:}string, ${1:}to-replace);
-  @if ${1:}target-location == null { @return ${1:}string; }
-  ${1:}string-without-target: str-slice(${1:}string, 1, ${1:}target-location - 1) + str-slice(${1:}string, ${1:}target-location + 1);
-  ${1:}string: str-insert(${1:}string-without-target, ${1:}replacement, ${1:}target-location);
-  @return ${1:}string;
+@function str-replace(\$string, \$to-replace, \$replacement:'') {
+  \$target-location: str-index(\$string, \$to-replace);
+  @if \$target-location == null { @return \$string; }
+  \$string-without-target: str-slice(\$string, 1, \$target-location - 1) + str-slice(\$string, \$target-location + 1);
+  \$string: str-insert(\$string-without-target, \$replacement, \$target-location);
+  @return \$string;
 }
 
 .foo:after {
-  content: str-replace('Hello.', '.', '!');
+  content: str-replace('${1:Hello.}', '${2:toreplace-e}', '${3:replacewith-!}');
 }
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
