@@ -1,18 +1,16 @@
 <snippet>
   <content><![CDATA[
 // Embossing text shadow
-// @param {Float} ${1:}value - Opacity value
+// @param {Float} $value - Opacity value
 // @example scss - Usage
 //   .foo {
 //     @include text-shadow(0.5);
 //   }
-@mixin text-shadow(${1:}value) {
-    text-shadow: rgba(255, 255, 255, ${1:}value) 0 1px 0;
+@mixin text-shadow($value) {
+    text-shadow: rgba(255, 255, 255, $value) 0 1px 0;
 }
 
-.foo {
-  @include text-shadow(0.5);
-}
+@include text-shadow(0.5);
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>andy-text-shadow</tabTrigger>
