@@ -1,19 +1,14 @@
 <snippet>
   <content><![CDATA[
 // Horizontally centers block elements
-// Usage
-//   .foo {
-//     @include center-block;
-//   }
 @mixin center-block {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.foo {
-  @include center-block;
-}
+@include center-block;
+
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>andy-center-horiz</tabTrigger>
