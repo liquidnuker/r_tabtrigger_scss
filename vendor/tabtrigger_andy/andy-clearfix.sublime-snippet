@@ -13,10 +13,7 @@
   }
 }
 
-//
-.foo {
-  @extend %clearfix;
-}
+@extend %clearfix;
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>andy-clearfix</tabTrigger>

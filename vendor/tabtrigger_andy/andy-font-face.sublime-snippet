@@ -1,22 +1,22 @@
 <snippet>
   <content><![CDATA[
 // Given the location of a webfont, will generate a font-face declaration with multiple file formats.
-// @param {String} ${1:}font-name - Font family name
-// @param {String} ${1:}file-name - File name (no extension)
-// @param {String | Number} ${1:}weight [normal] - Font weight
-// @param {String} ${1:}style [normal] - Font style
+// @param {String} \$font-name - Font family name
+// @param {String} \$file-name - File name (no extension)
+// @param {String | Number} \$weight [normal] - Font weight
+// @param {String} \$style [normal] - Font style
 // Usage
 //   @include font-face('gotham', '/fonts/gotham');
-@mixin font-face(${1:}font-name, ${1:}file-name, ${1:}weight: normal, ${1:}style: normal) {
+@mixin font-face(\$font-name, \$file-name, \$weight: normal, \$style: normal) {
   @font-face {
-    font-family: quote(${1:}font-name);
-    src: url(${1:}file-name + '.eot');
-    src: url(${1:}file-name + '.eot?#iefix')  format('embedded-opentype'),
-         url(${1:}file-name + '.woff') format('woff'),
-         url(${1:}file-name + '.ttf')  format('truetype'),
-         url(${1:}file-name + '.svg##{${1:}font-name}')  format('svg');
-    font-weight: ${1:}weight;
-    font-style: ${1:}style;
+    font-family: quote(\$font-name);
+    src: url(\$file-name + '.eot');
+    src: url(\$file-name + '.eot?#iefix')  format('embedded-opentype'),
+         url(\$file-name + '.woff') format('woff'),
+         url(\$file-name + '.ttf')  format('truetype'),
+         url(\$file-name + '.svg##{\$font-name}')  format('svg');
+    font-weight: \$weight;
+    font-style: \$style;
   }
 }
 
