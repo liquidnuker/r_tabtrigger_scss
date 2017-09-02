@@ -1,8 +1,8 @@
 <snippet>
   <content><![CDATA[
-@each ${1:}color in (red, green, yellow, black) {
-  p.#{${1:}color} {
-    background-color: #{${1:}color};
+@each \${1:}color in (red, green, yellow, black) {
+  p.#{\${1:}color} {
+    background-color: #{\${1:}color};
   }
 }
 ]]></content>
