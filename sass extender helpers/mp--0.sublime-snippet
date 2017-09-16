@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+mp--0
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>mp--0</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>%mp--0</description>
+  <scope>source.scss</scope>
+</snippet>

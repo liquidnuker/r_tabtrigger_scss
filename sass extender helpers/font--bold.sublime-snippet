@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+font--bold
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>font--bold</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>%font--bold</description>
+  <scope>source.scss</scope>
+</snippet>

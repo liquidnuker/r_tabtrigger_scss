@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+padd-bottom--4
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>padd-bottom--4</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>%padd-bottom--4</description>
+  <scope>source.scss</scope>
+</snippet>

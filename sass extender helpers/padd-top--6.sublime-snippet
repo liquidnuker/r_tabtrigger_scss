@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+padd-top--6
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>padd-top--6</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>%padd-top--6</description>
+  <scope>source.scss</scope>
+</snippet>
