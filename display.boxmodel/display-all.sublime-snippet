@@ -1,12 +1,12 @@
 <snippet>
   <content><![CDATA[
-display: inline;      /* cannot have a height or a width or a vertical margin */
-display:inline-block;  /* like inline; can have width and height */
-display: block;       /* can have a width, height and margin. */
+display: inline;      
+display:inline-block;  
+display: block;       
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>display-all</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <description>css disp.box inline,block hint</description>
+  <description>css display: all</description>
   <scope>source.scss</scope>
 </snippet>
