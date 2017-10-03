@@ -3,7 +3,7 @@
 :active
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>sa-psC-active</tabTrigger>
+  <tabTrigger>psc-active</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <description>css psC a:active</description>
   <scope>source.scss</scope>

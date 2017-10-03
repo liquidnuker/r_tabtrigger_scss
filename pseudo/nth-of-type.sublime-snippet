@@ -3,7 +3,7 @@
 :nth-of-type(${1:odd})
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>sa-psC-nth-of-type</tabTrigger>
+  <tabTrigger>psc-nth-of-type</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <description>css psC el:nth-of-type(odd)</description>
   <scope>source.scss</scope>

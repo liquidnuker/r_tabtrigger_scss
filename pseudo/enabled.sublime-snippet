@@ -3,7 +3,7 @@
 :enabled
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>sa-psC-input-enabled</tabTrigger>
+  <tabTrigger>psc-input-enabled</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <description>css psC input:enabled</description>
   <scope>source.scss</scope>
