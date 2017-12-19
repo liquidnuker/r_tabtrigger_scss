@@ -5,7 +5,7 @@
 border-image: url(${1:../img1}) ${2:30} ${3:round/stretch};
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>sa-css3-disp.box-border-image</tabTrigger>
+  <tabTrigger>css3-disp.box-border-image</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <description>css3-disp.box-border-image</description>
   <scope>source.scss</scope>
