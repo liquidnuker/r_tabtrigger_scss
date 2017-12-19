@@ -6,5 +6,5 @@ border-box
   <tabTrigger>border-box</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <description>css3 background-origin: border-box</description>
-  <scope>source.scss</scope>
+  <scope>source.scss, source.css</scope>
 </snippet>

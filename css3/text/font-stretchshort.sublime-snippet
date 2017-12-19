@@ -7,5 +7,5 @@ ${2:font-stretch: semi-condensed expanded semi-expanded extra-expanded ultra-exp
   <tabTrigger>font-stretch</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <description>css3-text-font-stretch</description>
-  <scope>source.scss</scope>
+  <scope>source.scss, source.css</scope>
 </snippet>

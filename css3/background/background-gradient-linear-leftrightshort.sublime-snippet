@@ -12,5 +12,5 @@ background-color: ${1:#000};
   <tabTrigger>background-gradient-linear-leftright</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <description>css3-background-gradient-linear-leftright</description>
-  <scope>source.scss</scope>
+  <scope>source.scss, source.css</scope>
 </snippet>

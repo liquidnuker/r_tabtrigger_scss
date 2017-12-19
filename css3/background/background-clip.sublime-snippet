@@ -6,5 +6,5 @@ background-clip: ${1:border-box padding-box content-box};
   <tabTrigger>css3-background-background-clip</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <description>css3 background background-clip</description>
-  <scope>source.scss</scope>
+  <scope>source.scss, source.css</scope>
 </snippet>

@@ -12,5 +12,5 @@ transform: scale(${1:2});
   <tabTrigger>css3-transform-scale</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <description>IE9 css3 transform: scale</description>
-  <scope>source.scss</scope>
+  <scope>source.scss, source.css</scope>
 </snippet>
