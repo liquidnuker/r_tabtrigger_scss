@@ -6,5 +6,5 @@ border-bottom-right-radius: ${1:};
   <tabTrigger>border-bottom-right-radius</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <description>css disp.box border-bottom-right-radius</description>
-  <scope>source.scss</scope>
+  <scope>source.scss, source.css</scope>
 </snippet>

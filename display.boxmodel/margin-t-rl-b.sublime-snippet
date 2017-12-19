@@ -6,5 +6,5 @@ margin: ${1:T }px ${2:RL }px ${3:B }px; /* t rl b */
   <tabTrigger>margin-t-rl-b</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <description>css disp.box margin t-rl-b</description>
-  <scope>source.scss</scope>
+  <scope>source.scss, source.css</scope>
 </snippet>

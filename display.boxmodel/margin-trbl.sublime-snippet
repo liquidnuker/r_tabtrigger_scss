@@ -6,5 +6,5 @@ margin: ${1:T }px ${2:R }px ${3:B }px ${4:L }px; /* trbl */
   <tabTrigger>margin-trbl</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <description>css disp.box margin trbl</description>
-  <scope>source.scss</scope>
+  <scope>source.scss, source.css</scope>
 </snippet>

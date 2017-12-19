@@ -6,5 +6,5 @@ margin-right: ${1:};
   <tabTrigger>margin-right</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <description>css disp.box margin-right</description>
-  <scope>source.scss</scope>
+  <scope>source.scss, source.css</scope>
 </snippet>

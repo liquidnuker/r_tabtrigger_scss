@@ -6,5 +6,5 @@ border-radius: 15px/50px;
   <tabTrigger>border-radius-ellipse</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <description>css disp.box border-radius ellpise</description>
-  <scope>source.scss</scope>
+  <scope>source.scss, source.css</scope>
 </snippet>

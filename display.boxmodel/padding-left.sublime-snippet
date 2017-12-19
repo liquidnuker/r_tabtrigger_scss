@@ -6,5 +6,5 @@ padding-left: ${1:};
   <tabTrigger>padding-left</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <description>css disp.box padding-left</description>
-  <scope>source.scss</scope>
+  <scope>source.scss, source.css</scope>
 </snippet>

@@ -6,5 +6,5 @@ border-top-width: ${1:1px};
   <tabTrigger>border-top-width</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <description>css disp.box border-top-width</description>
-  <scope>source.scss</scope>
+  <scope>source.scss, source.css</scope>
 </snippet>

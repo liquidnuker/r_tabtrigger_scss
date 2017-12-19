@@ -6,5 +6,5 @@ outline: ${1:1px solid #000};
   <tabTrigger>outline</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <description>css disp.box outline</description>
-  <scope>source.scss</scope>
+  <scope>source.scss, source.css</scope>
 </snippet>

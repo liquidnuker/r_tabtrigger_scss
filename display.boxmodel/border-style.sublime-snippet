@@ -7,5 +7,5 @@ border-style: ${2:groove, ridge, inset, outset, hidden};
   <tabTrigger>border-style</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <description>css disp.box border-style</description>
-  <scope>source.scss</scope>
+  <scope>source.scss, source.css</scope>
 </snippet>

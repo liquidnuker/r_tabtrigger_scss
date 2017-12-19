@@ -6,5 +6,5 @@ outline-width: ${1:1px} ${2:medium thick inherit};
   <tabTrigger>outline-width</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <description>sa disp.box outline-width</description>
-  <scope>source.scss</scope>
+  <scope>source.scss, source.css</scope>
 </snippet>

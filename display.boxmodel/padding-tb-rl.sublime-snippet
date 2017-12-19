@@ -6,5 +6,5 @@ padding: ${1:TB }px ${2:RL }px; /* tb rl */
   <tabTrigger>padding-tb-rl</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <description>css disp.box padding tb-rl</description>
-  <scope>source.scss</scope>
+  <scope>source.scss, source.css</scope>
 </snippet>

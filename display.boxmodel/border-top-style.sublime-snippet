@@ -6,5 +6,5 @@ border-top-style: ${1:solid};
   <tabTrigger>border-top-style</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <description>css disp.box border-top-style</description>
-  <scope>source.scss</scope>
+  <scope>source.scss, source.css</scope>
 </snippet>
