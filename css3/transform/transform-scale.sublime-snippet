@@ -9,7 +9,7 @@ ${2:/* 1:default, 0.5:50%, 2:2X */
 transform: scale(${1:2});
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>sa-css3-transform-scale</tabTrigger>
+  <tabTrigger>css3-transform-scale</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <description>IE9 css3 transform: scale</description>
   <scope>source.scss</scope>
