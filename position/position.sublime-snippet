@@ -6,5 +6,5 @@ position: ${1:absolute,fixed,relative,static,inherit};
   <tabTrigger>position</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <description>css pos position</description>
-  <scope>source.scss</scope>
+  <scope>source.scss, source.css</scope>
 </snippet>

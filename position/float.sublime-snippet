@@ -6,5 +6,5 @@ float: ${1:left right none inherit};
   <tabTrigger>float</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <description>css pos float</description>
-  <scope>source.scss</scope>
+  <scope>source.scss, source.css</scope>
 </snippet>

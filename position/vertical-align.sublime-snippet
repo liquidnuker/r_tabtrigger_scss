@@ -6,5 +6,5 @@ vertical-align: ${1:text-top,text-bottom,middle,baseline};
   <tabTrigger>vertical-align</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <description>css pos vertical-align</description>
-  <scope>source.scss</scope>
+  <scope>source.scss, source.css</scope>
 </snippet>

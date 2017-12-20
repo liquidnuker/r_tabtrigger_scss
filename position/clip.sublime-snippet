@@ -6,5 +6,5 @@ clip: ${1:shape, auto, inherit};
   <tabTrigger>clip</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <description>css pos- clips an absolutely positioned element</description>
-  <scope>source.scss</scope>
+  <scope>source.scss, source.css</scope>
 </snippet>

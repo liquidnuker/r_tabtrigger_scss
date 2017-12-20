@@ -6,5 +6,5 @@ bottom: ${1:auto,length,%,inherit};
   <tabTrigger>bottom</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <description>css pos- bottom margin edge for a positioned box</description>
-  <scope>source.scss</scope>
+  <scope>source.scss, source.css</scope>
 </snippet>
