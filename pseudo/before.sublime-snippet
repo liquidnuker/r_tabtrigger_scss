@@ -6,5 +6,5 @@
   <tabTrigger>pse-before</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <description>css psE el::before</description>
-  <scope>source.scss</scope>
+  <scope>source.scss, source.css</scope>
 </snippet>

@@ -6,5 +6,5 @@
   <tabTrigger>psc-input-enabled</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <description>css psC input:enabled</description>
-  <scope>source.scss</scope>
+  <scope>source.scss, source.css</scope>
 </snippet>

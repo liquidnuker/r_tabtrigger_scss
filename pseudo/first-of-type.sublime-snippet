@@ -6,5 +6,5 @@
   <tabTrigger>psc-first-of-type</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <description>css psC el:first-of-type</description>
-  <scope>source.scss</scope>
+  <scope>source.scss, source.css</scope>
 </snippet>
