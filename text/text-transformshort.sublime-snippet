@@ -6,5 +6,5 @@ text-transform: ${1:uppercase}; ${2:/* lowercase, capitalize */}
   <tabTrigger>text-transform</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <description>css text text-transform</description>
-  <scope>source.scss</scope>
+  <scope>source.scss, source.css</scope>
 </snippet>

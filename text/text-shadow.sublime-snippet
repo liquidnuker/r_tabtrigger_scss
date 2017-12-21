@@ -3,8 +3,8 @@
 text-shadow: ${1:hor2}px ${2:vert2}px ${3:blur5}px ${4:#666};
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>sa-css3-text-text-shadow</tabTrigger>
+  <tabTrigger>css3-text-text-shadow</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <description>!IE9 css3 text text-shadow</description>
-  <scope>source.scss</scope>
+  <scope>source.scss, source.css</scope>
 </snippet>

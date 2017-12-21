@@ -3,8 +3,8 @@
 letter-spacing: ${1:2px};
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>sa-text-letter-spacing</tabTrigger>
+  <tabTrigger>text-letter-spacing</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <description>css text letter-spacing</description>
-  <scope>source.scss</scope>
+  <scope>source.scss, source.css</scope>
 </snippet>

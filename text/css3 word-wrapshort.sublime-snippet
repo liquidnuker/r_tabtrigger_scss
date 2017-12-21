@@ -6,5 +6,5 @@ word-wrap: ${1:break-word};
   <tabTrigger>word-wrap</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <description>css3 text word-wrap</description>
-  <scope>source.scss</scope>
+  <scope>source.scss, source.css</scope>
 </snippet>

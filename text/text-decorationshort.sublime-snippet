@@ -6,5 +6,5 @@ text-decoration: ${1:none, underline, line-through, overline};
   <tabTrigger>text-decoration</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <description>css text text-decoration</description>
-  <scope>source.scss</scope>
+  <scope>source.scss, source.css</scope>
 </snippet>

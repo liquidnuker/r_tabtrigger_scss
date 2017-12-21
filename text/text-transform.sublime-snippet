@@ -3,8 +3,8 @@
 text-transform: ${1:uppercase}; ${2:/* lowercase, capitalize */}
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>sa-text-text-transform</tabTrigger>
+  <tabTrigger>text-text-transform</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <description>css text text-transform</description>
-  <scope>source.scss</scope>
+  <scope>source.scss, source.css</scope>
 </snippet>

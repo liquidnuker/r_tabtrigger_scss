@@ -6,5 +6,5 @@ font-style: ${1:normal, italic, oblique};
   <tabTrigger>font-style</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <description>css text font-style: normal italic</description>
-  <scope>source.scss</scope>
+  <scope>source.scss, source.css</scope>
 </snippet>

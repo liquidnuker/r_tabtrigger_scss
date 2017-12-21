@@ -6,5 +6,5 @@ text-align: ${1:right left center justify};
   <tabTrigger>text-align</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <description>css text text-align</description>
-  <scope>source.scss</scope>
+  <scope>source.scss, source.css</scope>
 </snippet>

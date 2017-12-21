@@ -6,5 +6,5 @@ text-overflow: ${1:clip}${2: ellipsis inherit};
   <tabTrigger>text-overflow</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <description>css3 text text-overflow</description>
-  <scope>source.scss</scope>
+  <scope>source.scss, source.css</scope>
 </snippet>

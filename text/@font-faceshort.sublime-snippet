@@ -20,5 +20,5 @@
   <tabTrigger>font-face</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <description>css text @font-face</description>
-  <scope>source.scss</scope>
+  <scope>source.scss, source.css</scope>
 </snippet>

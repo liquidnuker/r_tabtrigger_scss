@@ -3,8 +3,8 @@
 text-align: ${1:right left center justify};
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>sa-text-text-align</tabTrigger>
+  <tabTrigger>text-text-align</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <description>css text text-align</description>
-  <scope>source.scss</scope>
+  <scope>source.scss, source.css</scope>
 </snippet>

@@ -3,8 +3,8 @@
 text-overflow: ${1:clip}${2: ellipsis inherit};
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>sa-css3-text-text-overflow</tabTrigger>
+  <tabTrigger>css3-text-text-overflow</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <description>css3 text text-overflow</description>
-  <scope>source.scss</scope>
+  <scope>source.scss, source.css</scope>
 </snippet>
