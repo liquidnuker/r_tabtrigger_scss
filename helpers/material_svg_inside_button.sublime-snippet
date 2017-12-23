@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+${1:<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">}
+svg {
+  @extend %display--inline-block;
+  vertical-align: text-bottom;
+  width: 18px;
+  height: 18px;
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>helpers-svg</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>material svg inside &lt;button&gt;</description>
+  <scope>source.scss, source.css</scope>
+</snippet>
