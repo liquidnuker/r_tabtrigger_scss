@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+input[type="search"] {
+  padding: 4px 4px 4px 30px; /* trbl */
+  background: url('../img/search.svg') no-repeat; 
+  background-size: auto;
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>helpers-svg-search</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>material svg search icon inside input</description>
+  <scope>source.scss, source.css</scope>
+</snippet>
