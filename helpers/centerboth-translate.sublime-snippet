@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+${2:// centering
+// use absolute to ignore parent's padding}
+position: ${1:relative};
+top: 50%;
+left: 50%;
+transform: translateX(-50%) translateY(-50%);
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>helpers-center-both-translate</tabTrigger>
+  <description>translate method</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.scss, source.css</scope>
+</snippet>

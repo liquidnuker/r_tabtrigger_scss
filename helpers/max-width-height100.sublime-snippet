@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+max-width: 100%;
+max-height: 100%;
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>helpers-max-width-height100</tabTrigger>
+  <description>max-width,max-height 100%</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.scss, source.css</scope>
+</snippet>
